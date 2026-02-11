@@ -12,5 +12,5 @@ MsSql Server
 # Швидкий старт
 dotnet build
 
-# Запустити консольний застосунок
+# Запустити застосунок
 dotnet run --project ./Dz14
