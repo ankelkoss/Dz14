@@ -20,7 +20,7 @@ namespace InternetShop.Data
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ShopDbContext).Assembly);
 
-            //new DbInitializer(modelBuilder).Seed();
+            new DbInitializer(modelBuilder).Seed();
         }
     }
 }
